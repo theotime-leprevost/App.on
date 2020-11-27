@@ -4,7 +4,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   flex-wrap: wrap;
-  background-color: maroon;
+  background-color: green;
   }
   
   .content, .sidebar, .footer {
@@ -14,7 +14,7 @@ body {
   }
  
  .sidebar {
-     background-color: rgb(100, 1, 1);
+     background-color: rgb(77, 76, 76);
  }
  .content {
      background-color: lightsalmon;
@@ -31,4 +31,10 @@ body {
   padding: 5px 10px;
   text-align: center;
   
+  }
+
+  @media (max-width:375px){
+      body {flex-direction: column;
+        background-color: aqua;
+    }
   }
