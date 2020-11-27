@@ -1,0 +1,34 @@
+
+body {
+  Display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  flex-wrap: wrap;
+  background-color: maroon;
+  }
+  
+  .content, .sidebar, .footer {
+  box-sizing: content-box;
+  padding: 5px 10px;
+  text-align: justify;
+  }
+ 
+ .sidebar {
+     background-color: rgb(100, 1, 1);
+ }
+ .content {
+     background-color: lightsalmon;
+ }
+ .footer {
+     background-color: rgb(156, 49, 23);
+ }
+  main {
+  display: flex;
+  flex-basis: 50%;
+  flex-grow: 1;
+  }
+  header {
+  padding: 5px 10px;
+  text-align: center;
+  
+  }
